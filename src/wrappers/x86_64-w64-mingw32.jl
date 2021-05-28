@@ -8,12 +8,12 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_executable_product(
         lame,
-        "bin/lame.exe",
+        "bin\\lame.exe",
     )
 
     JLLWrappers.@init_library_product(
         libmp3lame,
-        "bin/libmp3lame-0.dll",
+        "bin\\libmp3lame-0.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

@@ -1,113 +1,143 @@
 [[LAME]]
-arch = "i686"
-git-tree-sha1 = "dd12115c6b2024991a4e890dfd3c7fb53baa0e19"
-libc = "musl"
-os = "linux"
-
-    [[LAME.download]]
-    sha256 = "c8ed3caf5017ecc34d4023ef69444acd5c3826bc2b48476b4ae02b207cf51207"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.i686-linux-musl.tar.gz"
-[[LAME]]
 arch = "aarch64"
-git-tree-sha1 = "6629302ee7a6fc640dfa0aaa8e5edc0fa5b9a056"
-libc = "musl"
-os = "linux"
-
-    [[LAME.download]]
-    sha256 = "46e0d7f7cd71de5f6a6a9d56bb138096673e205e556a98b740e16a31113f8b8e"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.aarch64-linux-musl.tar.gz"
-[[LAME]]
-arch = "i686"
-git-tree-sha1 = "8d815779427a210478009d6705811edadfe0d345"
-os = "windows"
-
-    [[LAME.download]]
-    sha256 = "3ce07b7974cd5dbfeb023564a3885b57589d8e522a0cf9204c695281c32fc98a"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.i686-w64-mingw32.tar.gz"
-[[LAME]]
-arch = "x86_64"
-git-tree-sha1 = "0fb011c1c579038491935467b7fc6bfe7bd3abb9"
-os = "windows"
-
-    [[LAME.download]]
-    sha256 = "45e228bfdac0d3416e34c5a2505913de184a9a3e419aba3a381e06871d420bb1"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.x86_64-w64-mingw32.tar.gz"
-[[LAME]]
-arch = "armv7l"
-git-tree-sha1 = "7068c5ea1287ff8ca3b665ba626d53e2071262ae"
-libc = "glibc"
-os = "linux"
-
-    [[LAME.download]]
-    sha256 = "15e053b313ac25fa52e0c6b9b8b156cf2fe555fc7ec36e41a9e43b089b972981"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.armv7l-linux-gnueabihf.tar.gz"
-[[LAME]]
-arch = "armv7l"
-git-tree-sha1 = "7d5bc6b1ec6877bc1480ea4bd6bc1c6d5a77c4f5"
-libc = "musl"
-os = "linux"
-
-    [[LAME.download]]
-    sha256 = "d6089f01099dc7a86f8f945ea4acaab11e7495d47b67a946847c6e424daee191"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.armv7l-linux-musleabihf.tar.gz"
-[[LAME]]
-arch = "i686"
-git-tree-sha1 = "ceaffa40063474684e59cf96d1c1f0578a4cd190"
-libc = "glibc"
-os = "linux"
-
-    [[LAME.download]]
-    sha256 = "26ff6dfbf95e39bfc740041bc99cd7fd34d7401fdf792a19d381a1bab2c5805f"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.i686-linux-gnu.tar.gz"
-[[LAME]]
-arch = "x86_64"
-git-tree-sha1 = "f73f822883915d7ae67651995e7596024a9ed531"
-libc = "glibc"
-os = "linux"
-
-    [[LAME.download]]
-    sha256 = "b63b811e9d0085a344ecf2a54e33bbf90d62b9e3645d39ce149c68c50b86bff8"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.x86_64-linux-gnu.tar.gz"
-[[LAME]]
-arch = "powerpc64le"
-git-tree-sha1 = "1a09919cd76ffe8d8950fdb5d0d6102848a83ef9"
-libc = "glibc"
-os = "linux"
-
-    [[LAME.download]]
-    sha256 = "758642bee958344548d41abf92914e108297ef887c721b3c7c986eb89298e281"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.powerpc64le-linux-gnu.tar.gz"
-[[LAME]]
-arch = "x86_64"
-git-tree-sha1 = "770746787041f171e17fc6f94357372ffdcd7fff"
+git-tree-sha1 = "413111420faa4e2aeaa383c075eaa213402d939c"
 os = "macos"
 
     [[LAME.download]]
-    sha256 = "c259d5d2fe622d6f3342f64b4a04e845d97deab2e7b87948eb8c1775353e7aa3"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "e6d944afa3d1903865e58e6523b09c4a47c8c337cf38a33a2ee64e9edcd129e2"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.aarch64-apple-darwin.tar.gz"
 [[LAME]]
 arch = "aarch64"
-git-tree-sha1 = "8127163b2a2229b4c7cdb8a53341fa337b3435bb"
+git-tree-sha1 = "3711950669965b0b7ca352934630162c781f71d8"
 libc = "glibc"
 os = "linux"
 
     [[LAME.download]]
-    sha256 = "79969b2857a16ba0000d3e1fb6bafd7a4be7165be2970d96ef5ea90d31136768"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "3a0a7944bc7ad89b637e7e4cfc820cf6b13dc3d604b457ef942fcc7bb041ebb0"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.aarch64-linux-gnu.tar.gz"
 [[LAME]]
-arch = "x86_64"
-git-tree-sha1 = "e809ec746723c95e32fe0a7e26612fd8def67f52"
-os = "freebsd"
-
-    [[LAME.download]]
-    sha256 = "59d676fc725d637dc650ce30c734dedbc4484391864a174bb1496ccde60ec6e8"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.x86_64-unknown-freebsd11.1.tar.gz"
-[[LAME]]
-arch = "x86_64"
-git-tree-sha1 = "c0cee377f2de6b1aa642581662fb8f0ec8cc98e0"
+arch = "aarch64"
+git-tree-sha1 = "ee35ac21d69fe0bce205d7011fb4166f5d31fcef"
 libc = "musl"
 os = "linux"
 
     [[LAME.download]]
-    sha256 = "f1699d7db592180eda808e231587c16182c9bb6e3feaa4dff6a4e12b77478d05"
-    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.0+1/LAME.v3.100.0.x86_64-linux-musl.tar.gz"
+    sha256 = "ccc4121de3addbb0a475e01012ddd67d73774a8a04aa02b5cffef75d95cba50e"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.aarch64-linux-musl.tar.gz"
+[[LAME]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "89633e0f9c9ea21918af6758c36a5b8fcf325c90"
+libc = "glibc"
+os = "linux"
+
+    [[LAME.download]]
+    sha256 = "e4e081973aac910f78b33b33c031bdc814695055bade0f9c82dcd4cbed1b7d32"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.armv6l-linux-gnueabihf.tar.gz"
+[[LAME]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "5042fbf1fa2f9769427d43fdf247ea0d576edb8a"
+libc = "musl"
+os = "linux"
+
+    [[LAME.download]]
+    sha256 = "1f87dd79c50b70bfed801156115f9066e38e67887e3d06f27e6a9137d126dde7"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.armv6l-linux-musleabihf.tar.gz"
+[[LAME]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5856645b28eac6b04c3e6ae49409632fc84bbf9b"
+libc = "glibc"
+os = "linux"
+
+    [[LAME.download]]
+    sha256 = "40ba70e6d911a87a6d395abbfca8fa7bfaaa822c776eb25636bd7f84fd095d1b"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.armv7l-linux-gnueabihf.tar.gz"
+[[LAME]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e1a69a987b50d71609216f88564993f72e83f43d"
+libc = "musl"
+os = "linux"
+
+    [[LAME.download]]
+    sha256 = "57ad6b30fb5f9872e9d4eec00eba0b1907be3e1017dd8e78de60d0dbcca1fd25"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.armv7l-linux-musleabihf.tar.gz"
+[[LAME]]
+arch = "i686"
+git-tree-sha1 = "55f6f640c6f60a7ded3a82e176512f798cc63e1b"
+libc = "glibc"
+os = "linux"
+
+    [[LAME.download]]
+    sha256 = "4ea5ae28f26f37fbc510a41a938dcc075767a1e5553d2fa89e63eaf7da245a1c"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.i686-linux-gnu.tar.gz"
+[[LAME]]
+arch = "i686"
+git-tree-sha1 = "8a5ddf2d6d3bd94c2a429af2a8d0b809a3da4bb0"
+libc = "musl"
+os = "linux"
+
+    [[LAME.download]]
+    sha256 = "1bf7e4c99fca509b092589a4dbe637537944aa31c8254e111818382bfcad970d"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.i686-linux-musl.tar.gz"
+[[LAME]]
+arch = "i686"
+git-tree-sha1 = "7a0f62c1640b65b2a4da5fac313413949b226354"
+os = "windows"
+
+    [[LAME.download]]
+    sha256 = "ea8d6bcf3407ded0bc318c6da43537241c6fb78dbb4248c78d89495908ec36b7"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.i686-w64-mingw32.tar.gz"
+[[LAME]]
+arch = "powerpc64le"
+git-tree-sha1 = "79e6dc874f05246af802451bc77aee0ca7e74e55"
+libc = "glibc"
+os = "linux"
+
+    [[LAME.download]]
+    sha256 = "234abe7bf3b9430e680f965b0fbd1da17051a8ef134d430172b8085a50dce445"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.powerpc64le-linux-gnu.tar.gz"
+[[LAME]]
+arch = "x86_64"
+git-tree-sha1 = "fe0276d289339d47a28d300125365cc9bcd019b7"
+os = "macos"
+
+    [[LAME.download]]
+    sha256 = "26c39a7d6eb393fe3027b2c37de1907561e5eded6d3b5dc7f7481fca7f4d6c46"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.x86_64-apple-darwin.tar.gz"
+[[LAME]]
+arch = "x86_64"
+git-tree-sha1 = "e19f3bb2eef5fb956b672235ea5323b5be9a0626"
+libc = "glibc"
+os = "linux"
+
+    [[LAME.download]]
+    sha256 = "c50316310f171fb28403127fdb32ddd1e2fad2c073d57520c98d599e36f4f935"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.x86_64-linux-gnu.tar.gz"
+[[LAME]]
+arch = "x86_64"
+git-tree-sha1 = "24b808d160cce363ba4c49f957007fec90673fe2"
+libc = "musl"
+os = "linux"
+
+    [[LAME.download]]
+    sha256 = "447e667a2ef7ae8ce7ce124f7662313e2e3575e3e58730d5ca110238f15ae42a"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.x86_64-linux-musl.tar.gz"
+[[LAME]]
+arch = "x86_64"
+git-tree-sha1 = "83179b32a9589ac6451864d41513c1debe96e76c"
+os = "freebsd"
+
+    [[LAME.download]]
+    sha256 = "771aa9d91eddbb5ccf1cb5d02476b53727ec0ec952d80ece80d88c84ec7519c2"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.x86_64-unknown-freebsd.tar.gz"
+[[LAME]]
+arch = "x86_64"
+git-tree-sha1 = "7d57f5f863fd09f31bbff6d08d53bfc07f49c3e6"
+os = "windows"
+
+    [[LAME.download]]
+    sha256 = "bbe5d14368198ed56ece57d707b733242d7337bf1102e28c3df3bba0a451a7c1"
+    url = "https://github.com/JuliaBinaryWrappers/LAME_jll.jl/releases/download/LAME-v3.100.1+0/LAME.v3.100.1.x86_64-w64-mingw32.tar.gz"
