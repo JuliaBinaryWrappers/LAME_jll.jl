@@ -2,19 +2,19 @@
 export lame, libmp3lame
 
 JLLWrappers.@generate_wrapper_header("LAME")
-JLLWrappers.@declare_executable_product(lame)
 JLLWrappers.@declare_library_product(libmp3lame, "libmp3lame-0.dll")
+JLLWrappers.@declare_executable_product(lame)
 function __init__()
     JLLWrappers.@generate_init_header()
-    JLLWrappers.@init_executable_product(
-        lame,
-        "bin\\lame.exe",
-    )
-
     JLLWrappers.@init_library_product(
         libmp3lame,
         "bin\\libmp3lame-0.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_executable_product(
+        lame,
+        "bin\\lame.exe",
     )
 
     JLLWrappers.@generate_init_footer()
